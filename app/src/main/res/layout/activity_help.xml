@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/halloween_main"
+    tools:context=".GameUI.Help">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="628dp"
+        android:layout_height="46dp"
+        android:text="@string/author_creds"
+        android:textAlignment="center"
+        android:textColor="#2797FA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="703dp"
+        android:layout_height="130dp"
+        android:text="@string/help_game_explain"
+        android:textAlignment="center"
+        android:textColor="#2797FA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <TextView
+        android:id="@+id/textViewCourseLink"
+        android:layout_width="449dp"
+        android:layout_height="59dp"
+        android:text="@string/course_site"
+        android:textAlignment="center"
+        android:textColor="#00BCD4"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718" />
+
+    <TextView
+        android:id="@+id/textViewHalloween"
+        android:layout_width="441dp"
+        android:layout_height="42dp"
+        android:text="https://www.istockphoto.com/search/2/image?mediatype=illustration&amp;phrase=halloween+light+bulb"
+        android:textAlignment="center"
+        android:textColor="#D80505"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="230dp"
+        android:layout_height="41dp"
+        android:text="https://www.flaticon.com/free-icon/candy_1888859"
+        android:textAlignment="center"
+        android:textColor="#00B7CF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.843" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Asn_3</string>
+    <string name="main_menu">Skip to Menu</string>
+    <string name="by_mohit_masand">By Mohit Masand</string>
+    <string name="find_candy">Find Candy</string>
+    <string name="scans_used"># Scans used:</string>
+    <string name="found_x_of_y_mines">Found x of y mines</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_menu_title">Main Menu</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="game_title">Game</string>
+    <string name="scans_used_counter"># Scans Used: </string>
+    <string name="candies_found_counter"> Candies Found</string>
+    <string name="dialog_tag">Dialog</string>
+    <string name="help_title">Help</string>
+    <string name="options_title">Options</string>
+    <string name="mines_counter"> Mines</string>
+    <string name="help_game_explain">Candy Finder is all about collecting as many candies as you can on a halloween night. Each time you explore a location, you are either given information about the number of candies in that row and/or column, or you have found one of the many hidden candies! Explore until you are able to find all of the candies.</string>
+    <string name="course_site"><a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home</a>
+    </string>
+
+    <string name="author_creds">The creator of this game is Mohit Masand. Created as part of the SFU Course below</string>
+</resources>
